@@ -9,4 +9,4 @@ package-lock.json
 
 #Ignore folder	
 /Build/*
-/node_module/*
+/node_modules/*
