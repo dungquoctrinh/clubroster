@@ -1,0 +1,16 @@
+{
+  "name": "club",
+  "version": "1.0.0",
+  "description": "Loading the project.Automate the comp",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "^5.10.0",
+    "node-sass": "4.5.0"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/main.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jun",
+  "license": "ISC"
+}

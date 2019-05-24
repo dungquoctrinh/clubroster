@@ -1,0 +1,56 @@
+.footer {
+  border-top: 1px solid;
+  padding: 8rem 0;
+  background-color: $color-orange-light-1;
+
+  &__list {
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: $color-black;
+    text-transform: uppercase;
+    padding: 0 0;
+  }
+
+  &__item {
+    padding: 2% 15%;
+
+    &:hover {
+      transform: translateY(-1px);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color:inherit;
+
+  }
+
+  &__title--subscription {
+    font-weight:100;
+    font-size: 3.5rem;
+    color: $color-black;
+    text-transform: capitalize;
+    text-align: left;
+  }
+
+  &__title--social {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:$color-grey-dark;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 2.5rem;
+    // display: inline-block;
+  }
+
+  &__icon {
+    padding-left: 11rem;
+  }
+}

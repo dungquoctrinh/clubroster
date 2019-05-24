@@ -1,0 +1,90 @@
+.nav-home {
+  right: 8%;
+  top:5%;
+  position: absolute;
+  color: $color-white;
+  font-weight: 700;
+
+
+  &__item {
+    position: relative;
+    @include navigation-style;
+
+    &::after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 0;
+      height:2px;
+      bottom:0;
+      left:0;
+      background-color:$color-white;
+      transition: width .3s;
+    }
+
+    &:hover {
+      &::after {
+        width:100%;
+      }
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color:inherit;
+  }
+}
+
+.nav-main {
+  float:right;
+  position:absolute;
+  right: 13%;
+  top: 25%;
+  color: $color-grey-dark;
+
+  &__item {
+    position: relative;
+    @include navigation-style;
+
+    &::after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 0;
+      height:2px;
+      bottom:0;
+      left:0;
+      background-color:$color-black;
+      transition: width .3s;
+    }
+
+    &:hover {
+      &::after {
+        width:100%;
+      }
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color:inherit;
+  }
+}
+
+.nav-brand-name {
+  left: 7%;
+  top: 2%;
+  position: absolute;
+  display:inline-block;
+  float:left;
+  font-size: 1.9rem;
+  font-weight:700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $color-grey-dark;
+
+  &__link {
+    text-decoration: none;
+    color:inherit;
+  }
+}

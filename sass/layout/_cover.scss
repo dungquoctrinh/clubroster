@@ -1,0 +1,22 @@
+.cover {
+  margin: 2rem 0;
+  height:40rem;
+  position: relative;
+
+  &__text-box {
+    @include text-box-style;
+    background-color: rgba($color-white, 0.6);
+    padding:4rem 6rem 5rem 6rem;
+  }
+
+}
+.cover--player {
+  background-image: linear-gradient(to right,
+                    $color-white-transparent-light,
+                    $color-white-transparent-dark,
+                    $color-white-transparent-light),
+                    url("../img/soccer_large.jpg");
+  background-size: cover;
+  background-position: center;
+}
+

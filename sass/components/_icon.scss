@@ -1,0 +1,17 @@
+.icon {
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    display: inline-block;
+    margin: 0 0.5rem;
+  }
+  &__image {
+    height:3rem;
+    width:3rem;
+    filter: opacity(.6);
+  }
+
+
+}

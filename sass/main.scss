@@ -1,0 +1,29 @@
+/*
+color gradient:
+#FCE1E5;
+#FCEBE1
+*/
+/* Note:
+To make the webpage as responsive as possible, better use % for height and width */
+/* universal selector to select all elements on the page */
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animation";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+@import "components/composition";
+@import "components/form";
+@import "components/icon";
+
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/grid";
+@import "layout/footer";
+@import "layout/cover";
+
+@import "pages/home";
