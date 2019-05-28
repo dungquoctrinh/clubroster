@@ -540,6 +540,12 @@ body {
   background-position: center;
 }
 
+.img-holder {
+  background-color: #2b2b2b;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .section-about--color {
   background-color: rgba(237, 164, 104, 0.13);
   padding: 13rem 0;
