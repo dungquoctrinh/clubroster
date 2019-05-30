@@ -1,5 +1,46 @@
-.img-holder {
+.player-img-holder {
     background-color: $player-background;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.player-composition {
+    position: relative;
+  
+    &__photo {
+      width: 40%;
+  
+      box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+      position: absolute;
+      z-index: 10;
+      transition: all .1s;
+      // outline-offset: 2rem;
+  
+  
+      &:hover {
+        // outline: 0.3rem solid $color-grey-light;
+        transform: scale(1.05) translateY(-.5rem);;
+        box-shadow: 0 2rem 4rem rgba($color-black, .5);
+        z-index: 20;
+      }
+    }
+  }
+  
+  .player-image-box {
+    // clear:both;
+    padding: 0.1rem;
+  }
+  
+
+  .section-player--color {
+    background-color: $color-orange-light-1;
+    padding: 13rem 0;
+  }
+  
+  .section-player {
+    padding: 13rem 0;
+  }
+
+  .player-group {
+    padding: 13rem 0;
+  }

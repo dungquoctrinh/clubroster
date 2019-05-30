@@ -5,6 +5,7 @@
 
 # Ignore model files that are auto-generated
 package-lock.json
+ClubRoster.code-workplace
 
 
 #Ignore folder	

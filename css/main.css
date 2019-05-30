@@ -540,10 +540,43 @@ body {
   background-position: center;
 }
 
-.img-holder {
+.player-img-holder {
   background-color: #2b2b2b;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.player-composition {
+  position: relative;
+}
+.player-composition__photo {
+  width: 40%;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  position: absolute;
+  z-index: 10;
+  transition: all 0.1s;
+}
+.player-composition__photo:hover {
+  transform: scale(1.05) translateY(-0.5rem);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+
+.player-image-box {
+  padding: 0.1rem;
+}
+
+.section-player--color {
+  background-color: rgba(237, 164, 104, 0.13);
+  padding: 13rem 0;
+}
+
+.section-player {
+  padding: 13rem 0;
+}
+
+.player-group {
+  padding: 13rem 0;
 }
 
 .section-about--color {
