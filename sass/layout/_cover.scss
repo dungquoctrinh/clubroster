@@ -21,3 +21,12 @@
   background-position: center;
 }
 
+.cover--sponsor {
+  background-image: linear-gradient(to right,
+                    $color-white-transparent-light,
+                    $color-white-transparent-dark,
+                    $color-white-transparent-light),
+                    url("../img/banner-sponsor.jpg");
+  background-size: cover;
+  background-position: center;
+}
