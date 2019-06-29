@@ -7,8 +7,10 @@
 .player {
 position: relative;
   &_photo {
-    // width: 40%;
+    width: 237px;
+    height: 237px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+    object-fit: contain;
     z-index: 10;
     transition: all .1s;  
     &:hover {

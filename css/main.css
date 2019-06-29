@@ -565,7 +565,10 @@ body {
   position: relative;
 }
 .player_photo {
+  width: 237px;
+  height: 237px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  object-fit: contain;
   z-index: 10;
   transition: all 0.1s;
 }
