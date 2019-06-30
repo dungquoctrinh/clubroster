@@ -38,7 +38,11 @@
     height:3.3rem;
     display: inline-block;
     float: left;
-    background-color: $color-brown-light;
+    background-color: $color-btn-subscribe;
     border-radius: 2px;
+      
+      &:hover {
+          background-color: $color-btn-subscribe-hover;
+      }
   }
 }
