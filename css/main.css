@@ -56,7 +56,6 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 2rem;
 }
 
 body {
@@ -300,8 +299,11 @@ body {
   height: 3.3rem;
   display: inline-block;
   float: left;
-  background-color: rgba(160, 82, 45, 0.3);
+  background-color: #0D52BD;
   border-radius: 2px;
+}
+.form__label:hover {
+  background-color: #0c4daf;
 }
 
 .icon__list {
@@ -473,7 +475,7 @@ body {
 .footer {
   border-top: 1px solid;
   padding: 8rem 0;
-  background-color: rgba(237, 164, 104, 0.13);
+  background-color: #2a2a2a;
 }
 .footer__list {
   list-style: none;
@@ -495,14 +497,14 @@ body {
 }
 .footer__link {
   text-decoration: none;
-  color: inherit;
+  color: #fff;
 }
 .footer__title--subscription {
   font-weight: 100;
   font-size: 3.5rem;
-  color: black;
   text-transform: capitalize;
   text-align: left;
+  color: #fff;
 }
 .footer__title--social {
   font-size: 1.4rem;

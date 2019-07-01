@@ -1,7 +1,7 @@
 .footer {
   border-top: 1px solid;
   padding: 8rem 0;
-  background-color: $color-team-theme;
+  background-color: $color-footer;
 
   &__list {
     list-style: none;
@@ -27,16 +27,16 @@
 
   &__link {
     text-decoration: none;
-    color:inherit;
+    color: $color-white;
 
   }
 
   &__title--subscription {
     font-weight:100;
     font-size: 3.5rem;
-    color: $color-black;
     text-transform: capitalize;
     text-align: left;
+    color: $color-white;
   }
 
   &__title--social {
