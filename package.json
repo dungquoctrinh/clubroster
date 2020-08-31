@@ -4,7 +4,7 @@
   "description": "Loading the project.Automate the comp",
   "main": "index.js",
   "dependencies": {
-    "npm": "^5.10.0",
+    "npm": "^6.14.6",
     "node-sass": "4.5.0"
   },
   "scripts": {
